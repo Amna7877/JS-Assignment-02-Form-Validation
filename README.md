@@ -31,7 +31,8 @@ JavaScript – Form validation & dynamic behavior
 
 📸 Preview
 
-()
+(<img width="1908" height="892" alt="Form-Validation" src="https://github.com/user-attachments/assets/bc0a9d94-0808-47e5-b6e9-69e7d01bc970" />
+)
 
 ✨ Author
 
