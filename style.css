@@ -1,0 +1,55 @@
+body {
+background: #c6cbe6;
+font-family: Arial, sans-serif;
+}
+
+h3{
+color: #0e2ab7;
+}
+
+.form-card {
+background: #ffff;
+border-radius: 12px;
+padding: 2rem;
+box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.form-label {
+font-weight: 500;
+margin-bottom: 6px;
+}
+
+.form-control, .form-select {
+border-radius: 8px;
+padding: 0.7rem;
+border: 1px solid #a8c3f3;
+transition: border 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+border-color: #4a6cf7;
+box-shadow: 0 0 6px rgba(74,108,247,0.3);
+}
+
+.btn-custom {
+background: #4a6cf7;
+border: none;
+padding: 0.8rem;
+font-weight: 600;
+border-radius: 50px;
+color:#fff;
+transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+background: #3a56c5;
+transform: scale(1.02);
+}
+
+.error {
+display: none;
+margin-top: 5px;
+font-size: 0.85rem;
+color: #d9534f;
+font-weight: 500;
+}

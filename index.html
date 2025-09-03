@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive Form Validation using HTML, CSS and JavaScript">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Interview Application Form</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9">
+                <div class="form-card">
+                    <h3 class="text-center mb-4 fw-bold">Candidate Interview Application</h3>
+                    <form id="applicationForm">
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                            <div class="error">Please enter your full name</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                            <div class="error">Please enter a valid email address</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="030X-XXXXXXX">
+                            <div class="error">Please enter a valid phone number</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob">
+                            <div class="error">Please select your date of birth</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Gender</label>
+                            <select class="form-select" id="gender">
+                                <option value="">  Select Gender </option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                            <div class="error">Please select gender</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Position for Apply</label>
+                            <select class="form-select" id="position">
+                                <option value="">  Select Position  </option>
+                                <option>Frontend Developer</option>
+                                <option>Backend Developer</option>
+                                <option>Full Stack Developer</option>
+                                <option>Graphic Designer</option>
+                                <option>UI/UX Designer</option>
+                            </select>
+                            <div class="error">Please select a position</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Years of Experience</label>
+                            <input type="number" class="form-control" id="experience" placeholder="e.g. 2">
+                            <div class="error">Please enter your experience in years</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Portfolio website (optional)</label>
+                            <input type="url" class="form-control" id="portfolio" placeholder="https://yourportfolio.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Upload Resume</label>
+                            <input type="file" class="form-control" id="resume" accept=".pdf, .doc, .docx">
+                            <div class="error">PLease add your resume</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Cover Letter</label>
+                            <textarea class="form-control" id="coverLetter" rows="4" placeholder="Write your cover letter here ..."></textarea>
+                            <div class="error">Please write cover letter</div>
+                        </div>
+
+                        <button type ="button" id="submitBtn" class="btn btn-custom w-100">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
